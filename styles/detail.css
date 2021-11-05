@@ -2,3 +2,31 @@
     width: 100vw;
     height: 100vh;
 }
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+#contentDetail1{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+/* #contentDetail2{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+} */
+#contentDetail3{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
