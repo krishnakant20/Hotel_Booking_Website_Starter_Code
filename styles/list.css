@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap); 
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
 #mainDivList{
     width: 100vw;
     height: 100vh;
@@ -9,9 +13,25 @@ body{
 header{
     background-color: rosybrown;
 }
+header>a:link{
+    color: black;
+    text-decoration: none;
+}
+header>a:last-child{
+    float: right;
+}
+
 footer{
     background-color: rosybrown;
 }
+footer>p>a:first-child{
+    color: black;
+    text-decoration: none;
+}
+footer>p:nth-child(2){
+    float: right;
+}
+
 #contentList1{
     margin: 2%;
     
@@ -21,3 +41,14 @@ footer{
     width: 40%;
     height: auto;
 }
+
+li{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+#listMapview{
+    display: none;
+}
+

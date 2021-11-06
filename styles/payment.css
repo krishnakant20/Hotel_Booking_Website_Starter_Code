@@ -9,9 +9,24 @@ body{
 header{
     background-color: rosybrown;
 }
+header>a:link{
+    color: black;
+    text-decoration: none;
+}
+header>a:last-child{
+    float: right;
+}
 footer{
     background-color: rosybrown;
 }
+footer>p>a:first-child{
+    color: black;
+    text-decoration: none;
+}
+footer>p:nth-child(2){
+    float: right;
+}
+
 .contentPayment1{
     background-color: rgb(132,136,139);
     width: 50%;

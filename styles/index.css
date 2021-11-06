@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap); 
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
 #mainDiv{
     width: 100vw;
     height: 100vh;
@@ -8,20 +12,45 @@ body{
 }
 header{
     background-color: rosybrown;
+position: static;
+}
+
+header>a{
+    float: right;
+}
+header>a:link{
+    color: black;
+    text-decoration: none;
 }
 footer{
     background-color: rosybrown;
+    position: static;
 }
+footer>p:nth-child(2){
+    float: right;
+}
+/* footer>p:nth-last-child(){
+   
+} */
+footer>p>a:first-child{
+    color: black;
+    text-decoration: none;
+}
+
 #contentForm1{
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
     height: 380px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    text-align: center;
+    
 }
+
 #contentDetails1{
     margin-left: 15%;
     margin-right: 15%;
     padding: 4%;
-    
 }
+
