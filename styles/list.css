@@ -21,13 +21,17 @@ justify-content: space-between;
 align-items: center;
 
 }
-
-
-header>a:link{
+/* header>a:link{
     padding-right: 2% ;
     color: black;
     text-decoration: none;
    
+} */
+#modalLogin1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1%;
 }
 /* body header end */
 
@@ -52,8 +56,12 @@ header>a:link{
     display: flex;
     margin: 5%;
 }
-
-
+.c2:hover{
+    background-color: rosybrown;
+}
+/* #mapView2:hover .c2{
+   display: none;
+} */
 
 /* body main content end */
 
@@ -63,13 +71,18 @@ footer{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 2%;
+    padding: 1%;
 }
 
-footer>div>a:first-child{
+/* footer>div>a:first-child{
     
     color: black;
     text-decoration: none;
+} */
+#footer123{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 /* body footer end */

@@ -14,11 +14,17 @@ justify-content: space-between;
 align-items: center;
 
 }
-header>a:link{
+#modalLogin1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1%;
+}
+/* header>a:link{
     padding-right: 2% ;
     color: black;
     text-decoration: none;
-}
+} */
 /* body header end */
 
 /* body content start */
@@ -55,10 +61,15 @@ footer{
     padding: 2%;
 }
 
-footer>div>a:first-child{
+/* footer>div>a:first-child{
     
     color: black;
     text-decoration: none;
+} */
+#footer123{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 /* body footer end */
