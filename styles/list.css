@@ -42,7 +42,7 @@ align-items: center;
     margin: 2%;
 }
 #listMapview{
-    display: none;
+    display: flex;
 }
 #contentList1{
     margin: 2%;
@@ -62,6 +62,9 @@ align-items: center;
 /* #mapView2:hover .c2{
    display: none;
 } */
+.checked {
+    color: orange;
+  }
 
 /* body main content end */
 
@@ -86,3 +89,22 @@ footer{
 }
 
 /* body footer end */
+/* media query start*/
+@media (min-width: 769px) {
+    #top1 {
+        background-color:lightpink;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    #top1 {
+        background-color: lightgreen;
+    }
+   
+}
+@media (max-width: 576px) {
+    #top1 {
+        background-color: orange;
+    }
+}
+
+/* media query end*/

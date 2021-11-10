@@ -50,6 +50,9 @@ align-items: center;
     margin-right: 4%;
     margin-bottom: 2%;
 }
+.checked {
+    color: orange;
+  }
 
 /* body content end */
 /* body footer start */
@@ -73,3 +76,22 @@ footer{
 }
 
 /* body footer end */
+/* media query start*/
+@media (min-width: 769px) {
+    #top1 {
+        background-color:lightpink;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    #top1 {
+        background-color: lightgreen;
+    }
+   
+}
+@media (max-width: 576px) {
+    #top1 {
+        background-color: orange;
+    }
+}
+
+/* media query end*/
