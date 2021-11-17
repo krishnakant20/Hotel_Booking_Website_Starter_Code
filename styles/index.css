@@ -20,6 +20,10 @@ header{
 display: flex;
 justify-content: end;
 align-items: center;
+
+
+
+
 }
 #modalLogin1{
     display: flex;
@@ -77,6 +81,20 @@ align-items: center;
     border-radius: 25%;
     box-shadow: 10px 10px 10px grey;
 }
+#contentDetails2{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 4%;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+#contentDetails2>div>div>img{
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+}
 #contentViewmore{
    
     display: flex;
@@ -130,7 +148,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-content: center;
+
+    /* position: fixed; */
 }
+#footer123>div:nth-child(2){
+    align-content: flex-end;
+    align-items: flex-end;
+    font-size: 15px;
+}
+
 /* body footer end */
 /* media query start*/
 @media (min-width: 769px) {
