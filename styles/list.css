@@ -42,6 +42,7 @@ align-items: center;
     margin: 2%;
 }
 #listMapview{
+    
     display: flex;
 }
 #contentList1{

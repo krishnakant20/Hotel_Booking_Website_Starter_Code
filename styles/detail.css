@@ -52,8 +52,16 @@ align-items: center;
 }
 .checked {
     color: orange;
-  }
+}
 
+
+#booking-form{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+    display: flex;
+}
 /* body content end */
 /* body footer start */
 footer{
