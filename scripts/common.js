@@ -168,3 +168,9 @@ let headerLogin = () => {
         location.reload();
     }
 };
+
+// linking detail page to payment page = live form details
+// import totalCost from detail.js;
+// var commonCost = totalCost;
+
+// End of Code

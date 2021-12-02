@@ -181,6 +181,7 @@ xhr.send(data);
 }
 
 getCityLists4(selectedCity4);
+
 //Chennai5 api call
 function getCityLists5(selectedCity5) {
     const data = null;
@@ -428,3 +429,4 @@ getCityLists5(selectedCity5);
 //     document.getElementById("contentList1").style.display = "none";
 // }
 
+// End of Code
