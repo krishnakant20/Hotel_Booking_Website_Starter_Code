@@ -37,7 +37,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", `https://travel-advisor.p.rapidapi.com/locations/search?query=${selectedCity}&limit=30&offset=0&units=km&location_id=1&currency=USD&sort=relevance&lang=en_US`);
 xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 xhr.send(data);
 }
@@ -83,7 +83,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", `https://travel-advisor.p.rapidapi.com/locations/search?query=${selectedCity2}&limit=30&offset=0&units=km&location_id=1&currency=USD&sort=relevance&lang=en_US`);
 xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 xhr.send(data);
 }
@@ -129,7 +129,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", `https://travel-advisor.p.rapidapi.com/locations/search?query=${selectedCity3}&limit=30&offset=0&units=km&location_id=1&currency=USD&sort=relevance&lang=en_US`);
 xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 xhr.send(data);
 }
@@ -175,7 +175,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", `https://travel-advisor.p.rapidapi.com/locations/search?query=${selectedCity4}&limit=30&offset=0&units=km&location_id=1&currency=USD&sort=relevance&lang=en_US`);
 xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 xhr.send(data);
 }
@@ -221,7 +221,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", `https://travel-advisor.p.rapidapi.com/locations/search?query=${selectedCity5}&limit=30&offset=0&units=km&location_id=1&currency=USD&sort=relevance&lang=en_US`);
 xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 xhr.send(data);
 }
@@ -267,7 +267,7 @@ getCityLists5(selectedCity5);
 
 // xhr.open("GET", `https://travel-advisor.p.rapidapi.com/locations/search?query=${selectedCity7}&limit=30&offset=0&units=km&location_id=1&currency=USD&sort=relevance&lang=en_US`);
 // xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-// xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+// xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 // xhr.send(data);
 // }

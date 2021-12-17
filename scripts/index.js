@@ -27,7 +27,7 @@ xhr.addEventListener("readystatechange", function () {
 
 xhr.open("GET", "https://travel-advisor.p.rapidapi.com/locations/v2/auto-complete?query=eiffel%20tower&lang=en_US&units=km");
 xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
 xhr.send(data);
 }

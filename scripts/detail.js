@@ -56,7 +56,7 @@ function getCityDetails(selectedHotels) {
 
     xhr.open("GET", `https://travel-advisor.p.rapidapi.com/hotels/list?location_id=${selectedHotels}&adults=1&rooms=1&nights=2&offset=0&currency=USD&order=asc&limit=30&sort=recommended&lang=en_US`);
     xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+    xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
     xhr.send(data);
 }
@@ -102,7 +102,7 @@ function getCityDetails2(selectedHotels2) {
 
     xhr.open("GET", `https://travel-advisor.p.rapidapi.com/hotels/list?location_id=${selectedHotels2}&adults=1&rooms=1&nights=2&offset=0&currency=USD&order=asc&limit=30&sort=recommended&lang=en_US`);
     xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+    xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
     xhr.send(data);
 }
@@ -148,7 +148,7 @@ function getCityDetails3(selectedHotels3) {
 
     xhr.open("GET", `https://travel-advisor.p.rapidapi.com/hotels/list?location_id=${selectedHotels3}&adults=1&rooms=1&nights=2&offset=0&currency=USD&order=asc&limit=30&sort=recommended&lang=en_US`);
     xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+    xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
     xhr.send(data);
 }
@@ -194,7 +194,7 @@ function getCityDetails4(selectedHotels4) {
 
     xhr.open("GET", `https://travel-advisor.p.rapidapi.com/hotels/list?location_id=${selectedHotels4}&adults=1&rooms=1&nights=2&offset=0&currency=USD&order=asc&limit=30&sort=recommended&lang=en_US`);
     xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+    xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
     xhr.send(data);
 }
@@ -240,7 +240,7 @@ function getCityDetails5(selectedHotels5) {
 
     xhr.open("GET", `https://travel-advisor.p.rapidapi.com/hotels/list?location_id=${selectedHotels5}&adults=1&rooms=1&nights=2&offset=0&currency=USD&order=asc&limit=30&sort=recommended&lang=en_US`);
     xhr.setRequestHeader("x-rapidapi-host", "travel-advisor.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "0165c6031emshfd90bbd513c7371p120d40jsn3b082a7df9a6");
+    xhr.setRequestHeader("x-rapidapi-key", "ENTER YOUR KEY HERE");
 
     xhr.send(data);
 }
